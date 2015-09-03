@@ -1,0 +1,5 @@
+To run the code: Use the mininet vm, On it using the command 'sudo python topology.py' run the the custom topology.
+The program will ask for no. of hosts per switch and no. of switches as input. Enter integers.
+
+Even hosts can only talk to even hosts and odd hosts can only talk to odd numbered hosts.
+Odd numbered hosts have bw of 1Mb and even numbered hosts have a bw of 2Mb.
